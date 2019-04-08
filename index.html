@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery-3.3.1.js" type="text/javascript"></script>
+  <script src="js/bootstrap.js" type="text/javascript"></script>
+  <script src="js/scripts.js" type="text/javascript"></script>
+  <title>Places</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Places We Have Been:</h1>
+      <h3>A Handy Directory for Our Trips</h3>
+    </div>
+
+    <form id="enterDest">
+      <h4>Enter Your Destination</h4>
+      <div class="form-group">
+        <label for="location">Location:</label>
+        <input id="location" type="text">
+      </div>
+      <div class="form-group">
+        <label for="landmarks">Landmarks:</label>
+        <input id="landmarks" type="text">
+      </div>
+      <div class="form-group">
+        <label for="restaurants">Restaurants:</label>
+        <input id="restaurants" type="text">
+      </div>
+      <div class="form-group">
+        <label for="dates">Dates:</label>
+        <input id="dates" type="text">
+      </div>
+      <div class="form-group">
+        <label for="activities">Activities:</label>
+        <input id="activities" type="text">
+      </div>
+      <button type="submit" class="btn">Add destination!</button>
+    </form>
+<hr>
+<h2>Places:</h2>
+<ul id="placesList">
+
+</ul>
+    <div class="col-md-6">
+        <div id="show-places">
+          <p>Location: <span class="location"></span></p>
+          <p>Landmarks: <span class="landmarks"></span></p>
+          <p>Restaurants: <span class="restaurants"></span></p>
+          <p>Dates: <span class="dates"></span></p>
+          <p>Activities: <span class="activities"></span></p>
+          <div id="buttons">
+            <button type="submit" class="btn-primary">Add</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
